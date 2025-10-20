@@ -630,41 +630,47 @@ $color-focus-item: #ffff74;
   padding: 4px;
 }
 
-#item3-1,
-#item3-2,
-#item3-3,
-#item3-4,
-#item3-5,
-#item3-6,
-#item3-7 {
+#item4-7,
+#item5-7,
+#item6-7,
+#item7-7,
+#item8-7 {
 
   &:active,
   &:focus,
   &:hover {
-    &~.crossword-clues .crossword-clues__list-item--across-1 {
+    &~.crossword-clues .crossword-clues__list-item--down-1 {
+      background: $color-focus-item;
+    }
+  }
+}
+
+#item8-4,
+#item8-5,
+#item8-6,
+#item8-7,
+#item8-8,
+#item8-9 {
+
+  &:active,
+  &:focus,
+  &:hover {
+    &~.crossword-clues .crossword-clues__list-item--across-2 {
       background: $color-focus-item;
     }
   }
 }
 
 
-#item1-3,
-#item2-3,
-#item3-3 {
-
-  &:active,
-  &:focus,
-  &:hover {
-    &~.crossword-clues .crossword-clues__list-item--down-2 {
-      background: $color-focus-item;
-    }
-  }
-}
-
-#item2-5,
-#item3-5,
-#item4-5,
-#item5-5 {
+#item4-9,
+#item5-9,
+#item6-9,
+#item7-9,
+#item8-9,
+#item9-9,
+#item10-9,
+#item11-9,
+#item12-9 {
 
   &:active,
   &:focus,
@@ -675,65 +681,54 @@ $color-focus-item: #ffff74;
   }
 }
 
-#item2-7,
-#item3-7,
-#item4-7,
-#item5-7,
-#item6-7,
-#item7-7 {
+#item13-2,
+#item13-3,
+#item13-4,
+#item13-5,
+#item13-6 {
 
   &:active,
   &:focus,
   &:hover {
-    &~.crossword-clues .crossword-clues__list-item--down-4 {
+    &~.crossword-clues .crossword-clues__list-item--across-4 {
       background: $color-focus-item;
     }
   }
 }
 
-#item7-5,
-#item7-6,
-#item7-7,
-#item7-8,
-#item7-9 {
-
-  &:active,
-  &:focus,
-  &:hover {
-    &~.crossword-clues .crossword-clues__list-item--across-5 {
-      background: $color-focus-item;
-    }
-  }
-}
-
-#item2-11,
-#item3-11,
-#item4-11,
-#item5-11,
-#item6-11,
 #item7-11,
 #item8-11,
 #item9-11,
-#item10-11,
-#item11-11 {
+#item10-11 {
 
   &:active,
   &:focus,
   &:hover {
-    &~.crossword-clues .crossword-clues__list-item--down-6 {
+    &~.crossword-clues .crossword-clues__list-item--down-5 {
       background: $color-focus-item;
     }
   }
 }
 
-#item9-4,
-#item9-5,
-#item9-6,
-#item9-7,
-#item9-8,
-#item9-9,
-#item9-10,
-#item9-11 {
+#item10-9,
+#item10-10,
+#item10-11 {
+
+  &:active,
+  &:focus,
+  &:hover {
+    &~.crossword-clues .crossword-clues__list-item--across-6 {
+      background: $color-focus-item;
+    }
+  }
+}
+
+#item16-3,
+#item16-4,
+#item16-5,
+#item16-6,
+#item16-7,
+#item16-8 {
 
   &:active,
   &:focus,
@@ -744,12 +739,10 @@ $color-focus-item: #ffff74;
   }
 }
 
-
-#item5-9,
-#item6-9,
-#item7-9,
-#item8-9,
-#item9-9 {
+#item13-6,
+#item14-6,
+#item15-6,
+#item16-6 {
 
   &:active,
   &:focus,
@@ -760,41 +753,33 @@ $color-focus-item: #ffff74;
   }
 }
 
-#item3-14,
-#item4-14,
-#item5-14,
-#item6-14,
-#item7-14 {
+#item12-9,
+#item12-10,
+#item12-11,
+#item12-12,
+#item12-13,
+#item12-14,
+#item12-15,
+#item12-16,
+#item12-17 {
 
   &:active,
   &:focus,
   &:hover {
-    &~.crossword-clues .crossword-clues__list-item--down-9 {
+    &~.crossword-clues .crossword-clues__list-item--across-9 {
       background: $color-focus-item;
     }
   }
 }
 
-#item11-6,
-#item12-6,
-#item13-6,
-#item14-6,
-#item15-6,
-#item16-6,
-#item17-6 {
-
-  &:active,
-  &:focus,
-  &:hover {
-    &~.crossword-clues .crossword-clues__list-item--down-10 {
-      background: $color-focus-item;
-    }
-  }
-}
-
-#item11-6,
-#item11-7,
-#item11-8 {
+#item18-4,
+#item18-5,
+#item18-6,
+#item18-7,
+#item18-8,
+#item18-9,
+#item18-10,
+#item18-11 {
 
   &:active,
   &:focus,
@@ -805,15 +790,15 @@ $color-focus-item: #ffff74;
   }
 }
 
-#item15-3,
-#item15-4,
-#item15-5,
-#item15-6,
-#item15-7,
-#item15-8,
-#item15-9,
-#item15-10,
-#item15-11 {
+#item20-2,
+#item20-3,
+#item20-4,
+#item20-5,
+#item20-6,
+#item20-7,
+#item20-8,
+#item20-9,
+#item20-10 {
 
   &:active,
   &:focus,
@@ -824,32 +809,26 @@ $color-focus-item: #ffff74;
   }
 }
 
-#item7-11,
-#item7-12,
-#item7-13,
-#item7-14,
-#item7-15,
-#item7-16,
+#item5-17,
+#item6-17,
 #item7-17,
-#item7-18,
-#item7-19 {
+#item8-17,
+#item9-17 {
 
   &:active,
   &:focus,
   &:hover {
-    &~.crossword-clues .crossword-clues__list-item--across-12 {
+    &~.crossword-clues .crossword-clues__list-item--down-12 {
       background: $color-focus-item;
     }
   }
 }
 
-#item3-16,
-#item4-16,
-#item5-16,
-#item6-16,
-#item7-16,
-#item8-16,
-#item9-16 {
+#item8-15,
+#item9-15,
+#item10-15,
+#item11-15,
+#item12-15 {
 
   &:active,
   &:focus,
@@ -860,35 +839,29 @@ $color-focus-item: #ffff74;
   }
 }
 
-
-#item17-3,
-#item17-4,
-#item17-5,
-#item17-6,
-#item17-7,
-#item17-8 {
+#item15-8,
+#item16-8,
+#item17-8,
+#item18-8,
+#item19-8,
+#item20-8,
+#item21-8,
+#item22-8 {
 
   &:active,
   &:focus,
   &:hover {
-    &~.crossword-clues .crossword-clues__list-item--across-14 {
+    &~.crossword-clues .crossword-clues__list-item--down-14 {
       background: $color-focus-item;
     }
   }
 }
 
-#item1-19,
-#item1-20,
-#item1-21,
-#item1-22,
-#item1-23,
-#item1-24,
-#item1-25,
-#item1-26,
-#item1-27,
-#item1-28,
-#item1-29,
-#item1-30 {
+
+#item9-14,
+#item9-15,
+#item9-16,
+#item9-17 {
 
   &:active,
   &:focus,
@@ -899,55 +872,6 @@ $color-focus-item: #ffff74;
   }
 }
 
-#item11-10,
-#item11-11,
-#item11-12,
-#item11-13,
-#item11-14 {
-
-  &:active,
-  &:focus,
-  &:hover {
-    &~.crossword-clues .crossword-clues__list-item--across-16 {
-      background: $color-focus-item;
-    }
-  }
-}
-
-
-#item3-18,
-#item4-18,
-#item5-18,
-#item6-18,
-#item7-18,
-#item8-18,
-#item9-18 {
-
-  &:active,
-  &:focus,
-  &:hover {
-    &~.crossword-clues .crossword-clues__list-item--down-17 {
-      background: $color-focus-item;
-    }
-  }
-}
-
-
-#item14-8,
-#item15-8,
-#item16-8,
-#item17-8 {
-
-  &:active,
-  &:focus,
-  &:hover {
-    &~.crossword-clues .crossword-clues__list-item--down-18 {
-      background: $color-focus-item;
-    }
-  }
-}
-
-#item1-21,
 #item2-21,
 #item3-21,
 #item4-21,
@@ -958,93 +882,128 @@ $color-focus-item: #ffff74;
   &:active,
   &:focus,
   &:hover {
-    &~.crossword-clues .crossword-clues__list-item--down-19 {
+    &~.crossword-clues .crossword-clues__list-item--down-16 {
       background: $color-focus-item;
     }
   }
 }
 
-
-#item21-1,
-#item21-2,
-#item21-3,
-#item21-4,
-#item21-5,
-#item21-6,
-#item21-7 {
+#item10-14,
+#item11-15,
+#item12-16,
+#item13-17,
+#item14-18 {
 
   &:active,
   &:focus,
   &:hover {
-    &~.crossword-clues .crossword-clues__list-item--across-20 {
+    &~.crossword-clues .crossword-clues__list-item--across-17 {
       background: $color-focus-item;
     }
   }
 }
 
-
-#item19-3,
-#item20-3,
-#item21-3,
-#item22-3,
-#item23-3,
-#item24-3,
-#item25-3,
-#item26-3,
-#item27-3 {
-
-  &:active,
-  &:focus,
-  &:hover {
-    &~.crossword-clues .crossword-clues__list-item--down-21 {
-      background: $color-focus-item;
-    }
-  }
-}
-
-#item10-13,
 #item11-13,
 #item12-13,
 #item13-13,
-#item14-13,
-#item15-13 {
+#item14-13 {
 
   &:active,
   &:focus,
   &:hover {
-    &~.crossword-clues .crossword-clues__list-item--down-22 {
+    &~.crossword-clues .crossword-clues__list-item--down-18 {
       background: $color-focus-item;
     }
   }
 }
 
-#item13-10,
-#item13-11,
-#item13-12,
-#item13-13,
-#item13-14,
-#item13-15,
-#item13-16,
-#item13-17 {
+#item7-17,
+#item7-18,
+#item7-18,
+#item7-20,
+#item7-21,
+#item7-22,
+#item7-23 {
 
   &:active,
   &:focus,
   &:hover {
-    &~.crossword-clues .crossword-clues__list-item--across-23 {
+    &~.crossword-clues .crossword-clues__list-item--across-19 {
       background: $color-focus-item;
     }
   }
 }
 
-#item5-18,
 #item5-19,
-#item5-20,
-#item5-21,
-#item5-22,
-#item5-23,
-#item5-24,
+#item6-19,
+#item7-19,
+#item8-19,
+#item9-19 {
+
+  &:active,
+  &:focus,
+  &:hover {
+    &~.crossword-clues .crossword-clues__list-item--down-20 {
+      background: $color-focus-item;
+    }
+  }
+}
+
+#item16-10,
+#item16-11,
+#item16-12,
+#item16-13,
+#item16-14,
+#item16-15 {
+
+  &:active,
+  &:focus,
+  &:hover {
+    &~.crossword-clues .crossword-clues__list-item--across-21 {
+      background: $color-focus-item;
+    }
+  }
+}
+
+#item22-4,
+#item22-5,
+#item22-6,
+#item22-7,
+#item22-8 {
+
+  &:active,
+  &:focus,
+  &:hover {
+    &~.crossword-clues .crossword-clues__list-item--across-22 {
+      background: $color-focus-item;
+    }
+  }
+}
+
+#item1-25,
+#item2-25,
+#item3-25,
+#item4-25,
 #item5-25,
-#item5-26 {
+#item6-25,
+#item7-25,
+#item8-25,
+#item9-25 {
+
+  &:active,
+  &:focus,
+  &:hover {
+    &~.crossword-clues .crossword-clues__list-item--down-23 {
+      background: $color-focus-item;
+    }
+  }
+}
+
+#item25-1,
+#item25-2,
+#item25-3,
+#item25-4,
+#item25-5 {
 
   &:active,
   &:focus,
@@ -1055,30 +1014,25 @@ $color-focus-item: #ffff74;
   }
 }
 
-#item3-20,
-#item3-21,
-#item3-22,
-#item3-23,
-#item3-24,
-#item3-25 {
+#item16-11,
+#item17-11,
+#item18-11 {
 
   &:active,
   &:focus,
   &:hover {
-    &~.crossword-clues .crossword-clues__list-item--across-25 {
+    &~.crossword-clues .crossword-clues__list-item--down-25 {
       background: $color-focus-item;
     }
   }
 }
 
-
-#item13-11,
-#item14-11,
-#item15-11,
-#item16-11,
-#item17-11,
-#item18-11,
-#item19-11 {
+#item22-5,
+#item23-5,
+#item24-5,
+#item25-5,
+#item26-5,
+#item27-5 {
 
   &:active,
   &:focus,
@@ -1089,32 +1043,30 @@ $color-focus-item: #ffff74;
   }
 }
 
-
-#item19-5,
-#item19-6,
-#item19-7,
-#item19-8,
-#item19-9,
-#item19-10,
-#item19-11 {
+#item11-17,
+#item12-17,
+#item13-17,
+#item14-17 {
 
   &:active,
   &:focus,
   &:hover {
-    &~.crossword-clues .crossword-clues__list-item--across-27 {
+    &~.crossword-clues .crossword-clues__list-item--down-27 {
       background: $color-focus-item;
     }
   }
 }
 
-
-#item9-16,
-#item9-17,
-#item9-18,
 #item9-19,
 #item9-20,
 #item9-21,
-#item9-22 {
+#item9-22,
+#item9-23,
+#item9-24,
+#item9-25,
+#item9-26,
+#item9-27,
+#item9-28 {
 
   &:active,
   &:focus,
@@ -1125,9 +1077,11 @@ $color-focus-item: #ffff74;
   }
 }
 
-#item19-7,
-#item20-7,
-#item21-7 {
+#item14-15,
+#item15-15,
+#item16-15,
+#item17-15,
+#item18-15 {
 
   &:active,
   &:focus,
@@ -1138,70 +1092,68 @@ $color-focus-item: #ffff74;
   }
 }
 
-#item21-5,
-#item22-5,
-#item23-5,
-#item24-5,
-#item25-5 {
+
+#item18-13,
+#item18-14,
+#item18-15,
+#item18-16,
+#item18-17,
+#item18-18,
+#item18-19,
+#item18-20 {
 
   &:active,
   &:focus,
   &:hover {
-    &~.crossword-clues .crossword-clues__list-item--down-30 {
+    &~.crossword-clues .crossword-clues__list-item--across-30 {
       background: $color-focus-item;
     }
   }
 }
 
-
-#item17-10,
-#item17-11,
-#item17-12,
-#item17-13,
-#item17-14 {
+#item3-28,
+#item4-28,
+#item5-28,
+#item6-28,
+#item7-28,
+#item8-28,
+#item9-28 {
 
   &:active,
   &:focus,
   &:hover {
-    &~.crossword-clues .crossword-clues__list-item--across-31 {
+    &~.crossword-clues .crossword-clues__list-item--down-31 {
       background: $color-focus-item;
     }
   }
 }
 
-#item13-15,
-#item14-15,
-#item15-15 {
+#item27-4,
+#item27-5,
+#item27-6,
+#item27-7,
+#item27-8,
+#item27-9,
+#item27-10,
+#item27-11 {
 
   &:active,
   &:focus,
   &:hover {
-    &~.crossword-clues .crossword-clues__list-item--down-32 {
+    &~.crossword-clues .crossword-clues__list-item--across-32 {
       background: $color-focus-item;
     }
   }
 }
 
-
-#item11-17,
-#item12-17,
-#item13-17 {
-
-  &:active,
-  &:focus,
-  &:hover {
-    &~.crossword-clues .crossword-clues__list-item--down-33 {
-      background: $color-focus-item;
-    }
-  }
-}
-
-#item11-17,
-#item11-18,
-#item11-19,
-#item11-20,
-#item11-21,
-#item11-22 {
+#item24-7,
+#item24-8,
+#item24-8,
+#item24-10,
+#item24-11,
+#item24-12,
+#item24-13,
+#item24-14 {
 
   &:active,
   &:focus,
@@ -1212,14 +1164,9 @@ $color-focus-item: #ffff74;
   }
 }
 
-
-#item19-9,
-#item20-9,
-#item21-9,
-#item22-9,
-#item23-9,
-#item24-9,
-#item25-9 {
+#item9-23,
+#item10-23,
+#item11-23 {
 
   &:active,
   &:focus,
@@ -1230,83 +1177,83 @@ $color-focus-item: #ffff74;
   }
 }
 
-#item15-15,
-#item15-16,
-#item15-17,
-#item15-18,
-#item15-19 {
-
-  &:active,
-  &:focus,
-  &:hover {
-    &~.crossword-clues .crossword-clues__list-item--across-35 {
-      background: $color-focus-item;
-    }
-  }
-}
-
-
-#item5-25,
-#item6-25,
-#item7-25,
-#item8-25,
-#item9-25,
-#item10-25,
-#item11-25 {
-
-  &:active,
-  &:focus,
-  &:hover {
-    &~.crossword-clues .crossword-clues__list-item--down-36 {
-      background: $color-focus-item;
-    }
-  }
-}
-
-#item17-14,
-#item18-14,
-#item19-14,
-#item20-14,
-#item21-14,
-#item22-14,
-#item23-14,
-#item24-14,
-#item25-14 {
-
-  &:active,
-  &:focus,
-  &:hover {
-    &~.crossword-clues .crossword-clues__list-item--down-37 {
-      background: $color-focus-item;
-    }
-  }
-}
-
-#item15-17,
 #item16-17,
 #item17-17,
 #item18-17,
 #item19-17,
 #item20-17,
-#item21-17,
-#item22-17,
-#item23-17 {
+#item21-17 {
 
   &:active,
   &:focus,
   &:hover {
-    &~.crossword-clues .crossword-clues__list-item--down-38 {
+    &~.crossword-clues .crossword-clues__list-item--down-35 {
       background: $color-focus-item;
     }
   }
 }
 
+#item11-22,
+#item11-23,
+#item11-24,
+#item11-25,
+#item11-26,
+#item11-27,
+#item11-28 {
 
-#item17-17,
-#item17-18,
-#item17-19,
-#item17-20,
-#item17-21 {
+  &:active,
+  &:focus,
+  &:hover {
+    &~.crossword-clues .crossword-clues__list-item--across-36 {
+      background: $color-focus-item;
+    }
+  }
+}
+
+#item30-3,
+#item30-4,
+#item30-5,
+#item30-6,
+#item30-7,
+#item30-8,
+#item30-9,
+#item30-10 {
+
+  &:active,
+  &:focus,
+  &:hover {
+    &~.crossword-clues .crossword-clues__list-item--across-37 {
+      background: $color-focus-item;
+    }
+  }
+}
+
+#item20-14,
+#item20-15,
+#item20-16,
+#item20-17,
+#item20-18,
+#item20-19 {
+
+  &:active,
+  &:focus,
+  &:hover {
+    &~.crossword-clues .crossword-clues__list-item--across-38 {
+      background: $color-focus-item;
+    }
+  }
+}
+
+#item14-20,
+#item14-21,
+#item14-22,
+#item14-23,
+#item14-24,
+#item14-25,
+#item14-26,
+#item14-27,
+#item14-28,
+#item14-29 {
 
   &:active,
   &:focus,
@@ -1317,21 +1264,11 @@ $color-focus-item: #ffff74;
   }
 }
 
-#item10-27,
-#item11-27,
-#item12-27,
-#item13-27,
-#item14-27,
-#item15-27,
-#item16-27,
-#item17-27,
-#item18-27,
-#item19-27,
-#item20-27,
-#item21-27,
-#item22-27,
-#item23-27,
-#item24-27 {
+#item23-11,
+#item24-11,
+#item25-11,
+#item26-11,
+#item27-11 {
 
   &:active,
   &:focus,
@@ -1342,9 +1279,13 @@ $color-focus-item: #ffff74;
   }
 }
 
-#item17-21,
-#item18-21,
-#item19-21 {
+#item27-8,
+#item28-8,
+#item29-8,
+#item30-8,
+#item31-8,
+#item32-8,
+#item33-8 {
 
   &:active,
   &:focus,
@@ -1355,12 +1296,12 @@ $color-focus-item: #ffff74;
   }
 }
 
+#item17-19,
+#item18-19,
 #item19-19,
 #item20-19,
 #item21-19,
-#item22-19,
-#item23-19,
-#item24-19 {
+#item22-19 {
 
   &:active,
   &:focus,
@@ -1371,46 +1312,24 @@ $color-focus-item: #ffff74;
   }
 }
 
-#item19-19,
-#item19-20,
-#item19-21,
-#item19-22,
-#item19-23,
-#item19-24,
-#item19-25 {
-
-  &:active,
-  &:focus,
-  &:hover {
-    &~.crossword-clues .crossword-clues__list-item--across-42 {
-      background: $color-focus-item;
-    }
-  }
-}
-
-#item14-24,
-#item14-25,
+#item11-26,
+#item12-26,
+#item13-26,
 #item14-26,
-#item14-27,
-#item14-28,
-#item14-29,
-#item14-30 {
+#item15-26 {
 
   &:active,
   &:focus,
   &:hover {
-    &~.crossword-clues .crossword-clues__list-item--across-43 {
+    &~.crossword-clues .crossword-clues__list-item--down-43 {
       background: $color-focus-item;
     }
   }
 }
 
-#item14-25,
-#item15-25,
-#item16-25,
-#item17-25,
-#item18-25,
-#item19-25 {
+#item24-14,
+#item25-14,
+#item26-14 {
 
   &:active,
   &:focus,
@@ -1421,49 +1340,41 @@ $color-focus-item: #ffff74;
   }
 }
 
-
-#item21-19,
-#item21-20,
-#item21-21,
-#item21-22,
-#item21-23,
-#item21-24,
-#item21-25 {
+#item30-10,
+#item31-10,
+#item32-10,
+#item33-10,
+#item34-10,
+#item35-10 {
 
   &:active,
   &:focus,
   &:hover {
-    &~.crossword-clues .crossword-clues__list-item--across-45 {
+    &~.crossword-clues .crossword-clues__list-item--down-45 {
       background: $color-focus-item;
     }
   }
 }
 
 
-#item11-29,
-#item12-29,
-#item13-29,
-#item14-29,
-#item15-29,
-#item16-29,
-#item17-29 {
+#item22-19,
+#item22-20,
+#item22-21,
+#item22-22 {
 
   &:active,
   &:focus,
   &:hover {
-    &~.crossword-clues .crossword-clues__list-item--down-46 {
+    &~.crossword-clues .crossword-clues__list-item--across-46 {
       background: $color-focus-item;
     }
   }
 }
 
-#item21-22,
-#item22-22,
-#item23-22,
-#item24-22,
-#item25-22,
-#item26-22,
-#item27-22 {
+#item22-21,
+#item23-21,
+#item24-21,
+#item25-21 {
 
   &:active,
   &:focus,
@@ -1474,15 +1385,13 @@ $color-focus-item: #ffff74;
   }
 }
 
-#item27-19,
-#item27-20,
-#item27-21,
-#item27-22,
-#item27-23,
-#item27-24,
-#item27-25,
-#item27-26,
-#item27-27 {
+#item24-21,
+#item24-22,
+#item24-23,
+#item24-24,
+#item24-25,
+#item24-26,
+#item24-27 {
 
   &:active,
   &:focus,
@@ -1492,6 +1401,147 @@ $color-focus-item: #ffff74;
     }
   }
 }
+
+#item19-27,
+#item20-27,
+#item21-27,
+#item22-27,
+#item23-27,
+#item24-27 {
+
+  &:active,
+  &:focus,
+  &:hover {
+    &~.crossword-clues .crossword-clues__list-item--down-49 {
+      background: $color-focus-item;
+    }
+  }
+}
+
+#item24-23,
+#item25-23,
+#item26-23 {
+
+  &:active,
+  &:focus,
+  &:hover {
+    &~.crossword-clues .crossword-clues__list-item--down-50 {
+      background: $color-focus-item;
+    }
+  }
+}
+
+
+#item21-26,
+#item21-27,
+#item21-28,
+#item21-29 {
+
+  &:active,
+  &:focus,
+  &:hover {
+    &~.crossword-clues .crossword-clues__list-item--across-51 {
+      background: $color-focus-item;
+    }
+  }
+}
+
+
+#item24-25,
+#item25-25,
+#item26-25,
+#item27-25,
+#item28-25 {
+
+  &:active,
+  &:focus,
+  &:hover {
+    &~.crossword-clues .crossword-clues__list-item--down-52 {
+      background: $color-focus-item;
+    }
+  }
+}
+
+
+#item28-22,
+#item28-23,
+#item28-24,
+#item28-25,
+#item28-26,
+#item28-27,
+#item28-28 {
+
+  &:active,
+  &:focus,
+  &:hover {
+    &~.crossword-clues .crossword-clues__list-item--across-53 {
+      background: $color-focus-item;
+    }
+  }
+}
+
+
+#item26-25,
+#item26-26,
+#item26-27,
+#item26-28,
+#item26-29,
+#item26-30 {
+
+  &:active,
+  &:focus,
+  &:hover {
+    &~.crossword-clues .crossword-clues__list-item--across-54 {
+      background: $color-focus-item;
+    }
+  }
+}
+
+#item28-23,
+#item29-23,
+#item30-23,
+#item31-23,
+#item32-23,
+#item33-23 {
+
+  &:active,
+  &:focus,
+  &:hover {
+    &~.crossword-clues .crossword-clues__list-item--down-55 {
+      background: $color-focus-item;
+    }
+  }
+}
+
+#item28-27,
+#item29-27,
+#item30-27,
+#item31-27 {
+
+  &:active,
+  &:focus,
+  &:hover {
+    &~.crossword-clues .crossword-clues__list-item--down-56 {
+      background: $color-focus-item;
+    }
+  }
+}
+
+#item30-26,
+#item30-27,
+#item30-28,
+#item30-29 {
+
+  &:active,
+  &:focus,
+  &:hover {
+    &~.crossword-clues .crossword-clues__list-item--across-57 {
+      background: $color-focus-item;
+    }
+  }
+}
+
+
 
 
 // !
